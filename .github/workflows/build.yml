@@ -21,4 +21,4 @@ jobs:
       - name: Create Retail Package
         uses: BigWigsMods/packager@master
         env:
-          GITHUB_OAUTH: ${{ secrets.token }}
+          GITHUB_OAUTH: ${{ secrets.TOKEN }}

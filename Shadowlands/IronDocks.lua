@@ -40,22 +40,22 @@ MDT.mapPOIs[dungeonIndex] = {
     [3] = {
       ["template"] = "MapLinkPinTemplate";
       ["type"] = "ironDocksIronStar";
-      ["x"] = 266.11253379826;
-      ["y"] = -319.65767561333;
+      ["x"] = 270.67760352742;
+      ["y"] = -320.03080240584;
       ["starIndex"] = 1;
     };
     [4] = {
       ["template"] = "MapLinkPinTemplate";
       ["type"] = "ironDocksIronStar";
-      ["x"] = 264.81445187747;
-      ["y"] = -350.09036679726;
+      ["x"] = 270.94430038219;
+      ["y"] = -348.5158205704;
       ["starIndex"] = 2;
     };
     [5] = {
       ["template"] = "MapLinkPinTemplate";
       ["type"] = "ironDocksIronStar";
-      ["x"] = 266.42209080433;
-      ["y"] = -378.53379369692;
+      ["x"] = 271.23275754648;
+      ["y"] = -378.08312556949;
       ["starIndex"] = 3;
     };
   };
@@ -66,11 +66,23 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Grom'kar Footsoldier";
     ["id"] = 81283;
     ["count"] = 4;
-    ["health"] = 394142;
+    ["health"] = 213361;
     ["scale"] = 1;
     ["displayId"] = 57845;
     ["creatureType"] = "Humanoid";
     ["level"] = 60;
+    ["characteristics"] = {
+      ["Taunt"] = true;
+      ["Disorient"] = true;
+      ["Stun"] = true;
+      ["Slow"] = true;
+    };
+    ["spells"] = {
+      [169413] = {
+      };
+      [172889] = {
+      };
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 275.38083673082;
@@ -181,11 +193,22 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Nathrezim Infiltrator";
     ["id"] = 189878;
     ["count"] = 4;
-    ["health"] = 460701;
+    ["health"] = 239096;
     ["scale"] = 1;
     ["displayId"] = 101016;
     ["creatureType"] = "Demon";
     ["level"] = 61;
+    ["characteristics"] = {
+      ["Taunt"] = true;
+    };
+    ["spells"] = {
+      [373364] = {
+      };
+      [373370] = {
+      };
+      [373429] = {
+      };
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 283.36211237634;
@@ -270,11 +293,22 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Grom'kar Incinerator";
     ["id"] = 86809;
     ["count"] = 5;
-    ["health"] = 394142;
+    ["health"] = 213361;
     ["scale"] = 1;
     ["displayId"] = 61281;
     ["creatureType"] = "Humanoid";
     ["level"] = 60;
+    ["characteristics"] = {
+      ["Taunt"] = true;
+      ["Stun"] = true;
+      ["Slow"] = true;
+    };
+    ["spells"] = {
+      [167516] = {
+      };
+      [172771] = {
+      };
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 274.59109320302;
@@ -313,11 +347,26 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Grom'kar Battlemaster";
     ["id"] = 83025;
     ["count"] = 9;
-    ["health"] = 630628;
+    ["health"] = 341378;
     ["scale"] = 1;
     ["displayId"] = 57476;
     ["creatureType"] = "Humanoid";
     ["level"] = 61;
+    ["characteristics"] = {
+      ["Taunt"] = true;
+    };
+    ["spells"] = {
+      [167232] = {
+      };
+      [167233] = {
+      };
+      [169302] = {
+      };
+      [172860] = {
+      };
+      [172889] = {
+      };
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 288.43053341995;
@@ -351,11 +400,20 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Grom'kar Deadeye";
     ["id"] = 83028;
     ["count"] = 3;
-    ["health"] = 394142;
+    ["health"] = 213361;
     ["scale"] = 1;
     ["displayId"] = 61340;
     ["creatureType"] = "Humanoid";
     ["level"] = 60;
+    ["characteristics"] = {
+      ["Slow"] = true;
+    };
+    ["spells"] = {
+      [167239] = {
+      };
+      [167240] = {
+      };
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 314.36561448177;
@@ -443,8 +501,9 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Unruly Ogron";
     ["id"] = 87252;
     ["count"] = 9;
-    ["health"] = 1182427;
+    ["health"] = 639150;
     ["scale"] = 1;
+    ["stealthDetect"] = true;
     ["displayId"] = 57815;
     ["creatureType"] = "Giant";
     ["level"] = 61;
@@ -461,11 +520,28 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Grom'kar Technician";
     ["id"] = 81432;
     ["count"] = 4;
-    ["health"] = 394142;
+    ["health"] = 213361;
     ["scale"] = 1;
     ["displayId"] = 56403;
     ["creatureType"] = "Humanoid";
     ["level"] = 60;
+    ["characteristics"] = {
+      ["Fear"] = true;
+      ["Disorient"] = true;
+      ["Slow"] = true;
+    };
+    ["spells"] = {
+      [172636] = {
+      };
+      [172649] = {
+      };
+      [172703] = {
+      };
+      [178298] = {
+      };
+      [178299] = {
+      };
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 335.76264900662;
@@ -586,11 +662,19 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Champion Druna";
     ["id"] = 81603;
     ["count"] = 9;
-    ["health"] = 630628;
+    ["health"] = 341378;
     ["scale"] = 1;
     ["displayId"] = 56461;
     ["creatureType"] = "Humanoid";
     ["level"] = 61;
+    ["spells"] = {
+      [166923] = {
+      };
+      [172810] = {
+      };
+      [173091] = {
+      };
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 329.20632923345;
@@ -605,11 +689,24 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Siegemaster Olugar";
     ["id"] = 83026;
     ["count"] = 9;
-    ["health"] = 630628;
+    ["health"] = 341378;
     ["scale"] = 1;
     ["displayId"] = 57477;
     ["creatureType"] = "Humanoid";
     ["level"] = 61;
+    ["characteristics"] = {
+      ["Taunt"] = true;
+    };
+    ["spells"] = {
+      [172952] = {
+      };
+      [172963] = {
+      };
+      [172982] = {
+      };
+      [173455] = {
+      };
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 343.94143272386;
@@ -657,11 +754,32 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Zul'gamux";
     ["id"] = 190128;
     ["count"] = 12;
-    ["health"] = 1182427;
+    ["health"] = 639150;
     ["scale"] = 1;
     ["displayId"] = 101106;
     ["creatureType"] = "Demon";
     ["level"] = 61;
+    ["characteristics"] = {
+      ["Taunt"] = true;
+    };
+    ["spells"] = {
+      [373509] = {
+      };
+      [373513] = {
+      };
+      [373552] = {
+      };
+      [373724] = {
+      };
+      [373729] = {
+      };
+      [373744] = {
+      };
+      [373747] = {
+      };
+      [374273] = {
+      };
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 365.9213712246;
@@ -677,11 +795,28 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Grom'kar Technician";
     ["id"] = 83763;
     ["count"] = 2;
-    ["health"] = 394142;
+    ["health"] = 213361;
     ["scale"] = 1;
     ["displayId"] = 60630;
     ["creatureType"] = "Humanoid";
     ["level"] = 60;
+    ["characteristics"] = {
+      ["Taunt"] = true;
+      ["Stun"] = true;
+      ["Slow"] = true;
+    };
+    ["spells"] = {
+      [172636] = {
+      };
+      [172649] = {
+      };
+      [172703] = {
+      };
+      [178298] = {
+      };
+      [178299] = {
+      };
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 349.86465962322;
@@ -731,17 +866,30 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Pitwarden Gwarnok";
     ["id"] = 84520;
     ["count"] = 9;
-    ["health"] = 630628;
+    ["health"] = 341378;
     ["scale"] = 1;
     ["displayId"] = 58394;
     ["creatureType"] = "Humanoid";
     ["level"] = 61;
+    ["spells"] = {
+      [167232] = {
+      };
+      [167233] = {
+      };
+      [172860] = {
+      };
+      [172889] = {
+      };
+      [172943] = {
+      };
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 381.80058656667;
         ["y"] = -174.05630959732;
         ["g"] = 10;
         ["sublevel"] = 1;
+        ["scale"] = 1.4;
       };
     };
   };
@@ -749,7 +897,7 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Dreadfang";
     ["id"] = 81297;
     ["count"] = 0;
-    ["health"] = 1639633;
+    ["health"] = 681760;
     ["scale"] = 1;
     ["displayId"] = 56363;
     ["creatureType"] = "Beast";
@@ -757,6 +905,17 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["isBoss"] = true;
     ["encounterID"] = 1235;
     ["instanceID"] = 558;
+    ["characteristics"] = {
+      ["Taunt"] = true;
+    };
+    ["spells"] = {
+      [164734] = {
+      };
+      [164835] = {
+      };
+      [164837] = {
+      };
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 403.47802842464;
@@ -770,7 +929,7 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Fleshrender Nok'gar";
     ["id"] = 81305;
     ["count"] = 0;
-    ["health"] = 2049541;
+    ["health"] = 852200;
     ["scale"] = 1;
     ["displayId"] = 56351;
     ["creatureType"] = "Humanoid";
@@ -778,6 +937,17 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["isBoss"] = true;
     ["encounterID"] = 1235;
     ["instanceID"] = 558;
+    ["characteristics"] = {
+      ["Taunt"] = true;
+    };
+    ["spells"] = {
+      [164426] = {
+      };
+      [164504] = {
+      };
+      [166923] = {
+      };
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 391.41270910655;
@@ -790,11 +960,22 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Grom'kar Deckhand";
     ["id"] = 83697;
     ["count"] = 3;
-    ["health"] = 394142;
+    ["health"] = 213361;
     ["scale"] = 1;
     ["displayId"] = 57894;
     ["creatureType"] = "Humanoid";
     ["level"] = 60;
+    ["characteristics"] = {
+      ["Taunt"] = true;
+      ["Disorient"] = true;
+      ["Slow"] = true;
+    };
+    ["spells"] = {
+      [173112] = {
+      };
+      [173113] = {
+      };
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 483.18995416593;
@@ -976,11 +1157,25 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Ogron Laborer";
     ["id"] = 83578;
     ["count"] = 9;
-    ["health"] = 1182427;
+    ["health"] = 640083;
     ["scale"] = 1;
+    ["stealthDetect"] = true;
     ["displayId"] = 57815;
     ["creatureType"] = "Giant";
     ["level"] = 61;
+    ["characteristics"] = {
+      ["Taunt"] = true;
+    };
+    ["spells"] = {
+      [162281] = {
+      };
+      [173135] = {
+      };
+      [178411] = {
+      };
+      [178412] = {
+      };
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 386.19231788079;
@@ -1014,12 +1209,25 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Ogron Laborer";
     ["id"] = 83761;
     ["count"] = 9;
-    ["health"] = 1182427;
+    ["health"] = 640083;
     ["scale"] = 1;
     ["stealthDetect"] = true;
     ["displayId"] = 57815;
     ["creatureType"] = "Giant";
     ["level"] = 61;
+    ["characteristics"] = {
+      ["Taunt"] = true;
+    };
+    ["spells"] = {
+      [162281] = {
+      };
+      [173135] = {
+      };
+      [178411] = {
+      };
+      [178412] = {
+      };
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 327.59291250833;
@@ -1107,11 +1315,21 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Grom'kar Deckhand";
     ["id"] = 83762;
     ["count"] = 1;
-    ["health"] = 394142;
+    ["health"] = 213361;
     ["scale"] = 1;
     ["displayId"] = 57894;
     ["creatureType"] = "Humanoid";
     ["level"] = 60;
+    ["characteristics"] = {
+      ["Stun"] = true;
+      ["Slow"] = true;
+    };
+    ["spells"] = {
+      [173112] = {
+      };
+      [173113] = {
+      };
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 366.53326770126;
@@ -1244,11 +1462,21 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Grom'kar Footsoldier";
     ["id"] = 83765;
     ["count"] = 2;
-    ["health"] = 472971;
+    ["health"] = 256033;
     ["scale"] = 1;
     ["displayId"] = 57845;
     ["creatureType"] = "Humanoid";
     ["level"] = 60;
+    ["characteristics"] = {
+      ["Taunt"] = true;
+      ["Stun"] = true;
+    };
+    ["spells"] = {
+      [169341] = {
+      };
+      [169413] = {
+      };
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 356.40173450731;
@@ -1299,11 +1527,21 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Grom'kar Deadeye";
     ["id"] = 83764;
     ["count"] = 2;
-    ["health"] = 394142;
+    ["health"] = 213361;
     ["scale"] = 1;
     ["displayId"] = 57978;
     ["creatureType"] = "Humanoid";
     ["level"] = 60;
+    ["characteristics"] = {
+      ["Stun"] = true;
+      ["Slow"] = true;
+    };
+    ["spells"] = {
+      [167239] = {
+      };
+      [167240] = {
+      };
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 414.91823288264;
@@ -1354,11 +1592,19 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Grom'kar Chainmaster";
     ["id"] = 86526;
     ["count"] = 9;
-    ["health"] = 394142;
+    ["health"] = 213361;
     ["scale"] = 1;
     ["displayId"] = 59661;
     ["creatureType"] = "Humanoid";
     ["level"] = 60;
+    ["characteristics"] = {
+      ["Taunt"] = true;
+      ["Slow"] = true;
+    };
+    ["spells"] = {
+      [173042] = {
+      };
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 491.87805966061;
@@ -1379,11 +1625,28 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Grom'kar Flameslinger";
     ["id"] = 81279;
     ["count"] = 5;
-    ["health"] = 315314;
+    ["health"] = 170689;
     ["scale"] = 1;
     ["displayId"] = 56332;
     ["creatureType"] = "Humanoid";
     ["level"] = 60;
+    ["characteristics"] = {
+      ["Taunt"] = true;
+      ["Incapacitate"] = true;
+      ["Slow"] = true;
+    };
+    ["spells"] = {
+      [164632] = {
+      };
+      [164648] = {
+      };
+      [167120] = {
+      };
+      [173148] = {
+      };
+      [173150] = {
+      };
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 548.67032505199;
@@ -1416,7 +1679,7 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Makogg Emberblade";
     ["id"] = 80805;
     ["count"] = 0;
-    ["health"] = 1844587;
+    ["health"] = 766980;
     ["scale"] = 1;
     ["displayId"] = 56017;
     ["creatureType"] = "Humanoid";
@@ -1424,6 +1687,19 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["isBoss"] = true;
     ["encounterID"] = 1236;
     ["instanceID"] = 558;
+    ["characteristics"] = {
+      ["Taunt"] = true;
+    };
+    ["spells"] = {
+      [163665] = {
+      };
+      [163668] = {
+      };
+      [163705] = {
+      };
+      [165152] = {
+      };
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 691.40774152129;
@@ -1437,7 +1713,7 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Ahri'ok Dugru";
     ["id"] = 80816;
     ["count"] = 0;
-    ["health"] = 1639633;
+    ["health"] = 681760;
     ["scale"] = 1;
     ["displayId"] = 56033;
     ["creatureType"] = "Humanoid";
@@ -1445,6 +1721,16 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["isBoss"] = true;
     ["encounterID"] = 1236;
     ["instanceID"] = 558;
+    ["spells"] = {
+      [163689] = {
+      };
+      [163705] = {
+      };
+      [163740] = {
+      };
+      [165122] = {
+      };
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 700.24531372275;
@@ -1458,7 +1744,7 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Neesa Nox";
     ["id"] = 80808;
     ["count"] = 0;
-    ["health"] = 1434679;
+    ["health"] = 596540;
     ["scale"] = 1;
     ["displayId"] = 56029;
     ["creatureType"] = "Humanoid";
@@ -1466,6 +1752,17 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["isBoss"] = true;
     ["encounterID"] = 1236;
     ["instanceID"] = 558;
+    ["characteristics"] = {
+      ["Taunt"] = true;
+    };
+    ["spells"] = {
+      [163334] = {
+      };
+      [163376] = {
+      };
+      [163390] = {
+      };
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 700.92730486279;
@@ -1479,11 +1776,28 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Rampaging Clefthoof";
     ["id"] = 83392;
     ["count"] = 8;
-    ["health"] = 748871;
+    ["health"] = 405386;
     ["scale"] = 1;
     ["displayId"] = 52377;
     ["creatureType"] = "Beast";
     ["level"] = 61;
+    ["characteristics"] = {
+      ["Taunt"] = true;
+    };
+    ["spells"] = {
+      [158337] = {
+      };
+      [158341] = {
+      };
+      [158349] = {
+      };
+      [173349] = {
+      };
+      [173351] = {
+      };
+      [173384] = {
+      };
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 728.16900557601;
@@ -1519,11 +1833,29 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Thunderlord Wrangler";
     ["id"] = 83390;
     ["count"] = 7;
-    ["health"] = 394142;
+    ["health"] = 213361;
     ["scale"] = 1;
     ["displayId"] = 59769;
     ["creatureType"] = "Humanoid";
     ["level"] = 60;
+    ["characteristics"] = {
+      ["Taunt"] = true;
+      ["Sap"] = true;
+      ["Stun"] = true;
+      ["Slow"] = true;
+    };
+    ["spells"] = {
+      [167095] = {
+      };
+      [167815] = {
+      };
+      [173307] = {
+      };
+      [173311] = {
+      };
+      [173324] = {
+      };
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 722.70812592997;
@@ -1643,11 +1975,21 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Ironwing Flamespitter";
     ["id"] = 83389;
     ["count"] = 8;
-    ["health"] = 512385;
+    ["health"] = 277369;
     ["scale"] = 1;
     ["displayId"] = 58013;
     ["creatureType"] = "Beast";
     ["level"] = 61;
+    ["spells"] = {
+      [173480] = {
+      };
+      [173489] = {
+      };
+      [173514] = {
+      };
+      [173517] = {
+      };
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 730.33642384106;
@@ -1683,11 +2025,24 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Siegemaster Rokra";
     ["id"] = 84028;
     ["count"] = 9;
-    ["health"] = 630628;
+    ["health"] = 341378;
     ["scale"] = 1;
     ["displayId"] = 57477;
     ["creatureType"] = "Humanoid";
     ["level"] = 61;
+    ["characteristics"] = {
+      ["Taunt"] = true;
+    };
+    ["spells"] = {
+      [172952] = {
+      };
+      [172963] = {
+      };
+      [172982] = {
+      };
+      [173455] = {
+      };
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 732.08140920109;
@@ -1720,7 +2075,7 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Oshir";
     ["id"] = 79852;
     ["count"] = 0;
-    ["health"] = 3586697;
+    ["health"] = 1491350;
     ["scale"] = 1;
     ["displayId"] = 55352;
     ["creatureType"] = "Humanoid";
@@ -1728,6 +2083,19 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["isBoss"] = true;
     ["encounterID"] = 1237;
     ["instanceID"] = 558;
+    ["characteristics"] = {
+      ["Taunt"] = true;
+    };
+    ["spells"] = {
+      [161256] = {
+      };
+      [162415] = {
+      };
+      [162424] = {
+      };
+      [178124] = {
+      };
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 671.24378639739;
@@ -1740,7 +2108,7 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Skulloc";
     ["id"] = 83612;
     ["count"] = 0;
-    ["health"] = 3279266;
+    ["health"] = 1363520;
     ["scale"] = 1;
     ["displayId"] = 57836;
     ["creatureType"] = "Giant";
@@ -1748,6 +2116,15 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["isBoss"] = true;
     ["encounterID"] = 1238;
     ["instanceID"] = 558;
+    ["characteristics"] = {
+      ["Taunt"] = true;
+    };
+    ["spells"] = {
+      [168227] = {
+      };
+      [168929] = {
+      };
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 572.12922478407;
@@ -1762,7 +2139,7 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Koramar";
     ["id"] = 83613;
     ["count"] = 0;
-    ["health"] = 1229725;
+    ["health"] = 511320;
     ["scale"] = 1;
     ["displayId"] = 57837;
     ["creatureType"] = "Humanoid";
@@ -1770,6 +2147,21 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["isBoss"] = true;
     ["encounterID"] = 1238;
     ["instanceID"] = 558;
+    ["characteristics"] = {
+      ["Taunt"] = true;
+    };
+    ["spells"] = {
+      [168399] = {
+      };
+      [168401] = {
+      };
+      [168402] = {
+      };
+      [168955] = {
+      };
+      [168965] = {
+      };
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 586.78019331296;
@@ -1784,7 +2176,7 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Zoggosh";
     ["id"] = 83616;
     ["count"] = 0;
-    ["health"] = 819816;
+    ["health"] = 340880;
     ["scale"] = 1;
     ["displayId"] = 57840;
     ["creatureType"] = "Humanoid";
@@ -1792,10 +2184,48 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["isBoss"] = true;
     ["encounterID"] = 1238;
     ["instanceID"] = 558;
+    ["characteristics"] = {
+      ["Taunt"] = true;
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 558.41684184762;
         ["y"] = -256.13865063963;
+        ["g"] = 33;
+        ["sublevel"] = 1;
+        ["scale"] = 0.6;
+      };
+    };
+  };
+  [34] = {
+    ["name"] = "Iron Star";
+    ["id"] = 81247;
+    ["count"] = 0;
+    ["health"] = 6400831;
+    ["scale"] = 3.3;
+    ["displayId"] = 59425;
+    ["creatureType"] = "Mechanical";
+    ["level"] = 61;
+    ["spells"] = {
+      [167299] = {
+      };
+    };
+    ["clones"] = {
+      [1] = {
+        ["x"] = 254.23177295328;
+        ["y"] = -377.48161154942;
+        ["sublevel"] = 1;
+        ["scale"] = 0.6;
+      };
+      [2] = {
+        ["x"] = 253.74427747106;
+        ["y"] = -348.96185559287;
+        ["sublevel"] = 1;
+        ["scale"] = 0.6;
+      };
+      [3] = {
+        ["x"] = 253.71907248389;
+        ["y"] = -320.35893382964;
         ["sublevel"] = 1;
         ["scale"] = 0.6;
       };

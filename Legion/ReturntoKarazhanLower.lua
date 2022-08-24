@@ -227,17 +227,27 @@ MDT.mapPOIs[dungeonIndex] = {
   };
 };
 
-
 MDT.dungeonEnemies[dungeonIndex] = {
   [1] = {
     ["name"] = "Forlorn Spirit";
     ["id"] = 114626;
     ["count"] = 5;
-    ["health"] = 16110718.34;
+    ["health"] = 340880;
     ["scale"] = 1;
     ["displayId"] = 26404;
     ["creatureType"] = "Undead";
     ["level"] = 111;
+    ["characteristics"] = {
+      ["Taunt"] = true;
+    };
+    ["spells"] = {
+      [228252] = {
+      };
+      [228254] = {
+      };
+      [228255] = {
+      };
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 466.15596558832;
@@ -257,11 +267,25 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Spectral Patron";
     ["id"] = 114541;
     ["count"] = 1;
-    ["health"] = 8418063;
+    ["health"] = 85220;
     ["scale"] = 1;
     ["displayId"] = 16555;
     ["creatureType"] = "Undead";
     ["level"] = 110;
+    ["characteristics"] = {
+      ["Taunt"] = true;
+      ["Root"] = true;
+      ["Disorient"] = true;
+      ["Stun"] = true;
+    };
+    ["spells"] = {
+      [227981] = {
+      };
+      [227983] = {
+      };
+      [228014] = {
+      };
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 263.29146003598;
@@ -701,54 +725,12 @@ MDT.dungeonEnemies[dungeonIndex] = {
         ["teeming"] = true;
       };
       [54] = {
-        ["x"] = 201.97347945815;
-        ["y"] = -227.0167110551;
-        ["g"] = 103;
-        ["sublevel"] = 3;
-      };
-      [55] = {
-        ["x"] = 206.87490931041;
-        ["y"] = -199.94275425178;
-        ["g"] = 103;
-        ["sublevel"] = 3;
-      };
-      [56] = {
-        ["x"] = 206.20030538956;
-        ["y"] = -209.63631973138;
-        ["g"] = 103;
-        ["sublevel"] = 3;
-        ["disguised"] = true;
-      };
-      [57] = {
-        ["x"] = 204.02072423023;
-        ["y"] = -217.90631114019;
-        ["g"] = 103;
-        ["sublevel"] = 3;
-      };
-      [58] = {
-        ["x"] = 183.91750518535;
-        ["y"] = -179.63670838954;
-        ["g"] = 104;
-        ["sublevel"] = 3;
-      };
-      [59] = {
-        ["x"] = 181.8290546604;
-        ["y"] = -186.52871522402;
-        ["g"] = 104;
-        ["sublevel"] = 3;
-      };
-      [60] = {
-        ["x"] = 179.32282798714;
-        ["y"] = -195.09155776636;
-        ["g"] = 104;
-        ["sublevel"] = 3;
-        ["inspiring"] = true;
-      };
-      [61] = {
-        ["x"] = 176.60778494249;
-        ["y"] = -202.81900934331;
-        ["g"] = 104;
-        ["sublevel"] = 3;
+        ["x"] = 310.28296471325;
+        ["y"] = -221.68987574361;
+        ["sublevel"] = 1;
+        ["scale"] = 2;
+        ["patrol"] = {
+        };
       };
     };
   };
@@ -756,11 +738,31 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Ghostly Philanthropist";
     ["id"] = 114542;
     ["count"] = 4;
-    ["health"] = 14514161;
+    ["health"] = 213050;
     ["scale"] = 1;
     ["displayId"] = 73336;
     ["creatureType"] = "Undead";
     ["level"] = 111;
+    ["characteristics"] = {
+      ["Taunt"] = true;
+      ["Incapacitate"] = true;
+      ["Disorient"] = true;
+      ["Stun"] = true;
+    };
+    ["spells"] = {
+      [227999] = {
+      };
+      [228001] = {
+      };
+      [228010] = {
+      };
+      [228014] = {
+      };
+      [228017] = {
+      };
+      [238566] = {
+      };
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 284.44574948401;
@@ -941,11 +943,22 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Phantom Crew";
     ["id"] = 114584;
     ["count"] = 4;
-    ["health"] = 11224084;
+    ["health"] = 340880;
     ["scale"] = 1;
     ["displayId"] = 73338;
     ["creatureType"] = "Undead";
     ["level"] = 110;
+    ["characteristics"] = {
+      ["Taunt"] = true;
+    };
+    ["spells"] = {
+      [228086] = {
+      };
+      [228161] = {
+      };
+      [228164] = {
+      };
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 104.59398235026;
@@ -1046,11 +1059,25 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Ghostly Understudy";
     ["id"] = 114526;
     ["count"] = 3;
-    ["health"] = 11224084;
+    ["health"] = 213050;
     ["scale"] = 1;
     ["displayId"] = 73302;
     ["creatureType"] = "Undead";
     ["level"] = 110;
+    ["characteristics"] = {
+      ["Taunt"] = true;
+      ["Root"] = true;
+      ["Disorient"] = true;
+      ["Stun"] = true;
+    };
+    ["spells"] = {
+      [227917] = {
+      };
+      [227925] = {
+      };
+      [227927] = {
+      };
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 171.93890946345;
@@ -1166,8 +1193,8 @@ MDT.dungeonEnemies[dungeonIndex] = {
         ["scale"] = 1.2;
       };
       [17] = {
-        ["x"] = 109.09044138229;
-        ["y"] = -183.35335266627;
+        ["x"] = 91.499586279066;
+        ["y"] = -209.39473187963;
         ["g"] = 14;
         ["sublevel"] = 3;
         ["scale"] = 1.2;
@@ -1186,11 +1213,23 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Backup Singer";
     ["id"] = 116549;
     ["count"] = 4;
-    ["health"] = 12627094;
+    ["health"] = 127830;
     ["scale"] = 1;
     ["displayId"] = 74235;
     ["creatureType"] = "Undead";
     ["level"] = 110;
+    ["characteristics"] = {
+      ["Taunt"] = true;
+      ["Incapacitate"] = true;
+      ["Disorient"] = true;
+      ["Stun"] = true;
+    };
+    ["spells"] = {
+      [232084] = {
+      };
+      [232115] = {
+      };
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 188.57236254656;
@@ -1276,16 +1315,27 @@ MDT.dungeonEnemies[dungeonIndex] = {
   [7] = {
     ["name"] = "Skeletal Usher";
     ["id"] = 114544;
-    ["count"] = 6;
-    ["health"] = 11224084;
+    ["count"] = 12;
+    ["health"] = 340880;
     ["scale"] = 1;
     ["displayId"] = 73313;
     ["creatureType"] = "Undead";
     ["level"] = 110;
+    ["characteristics"] = {
+      ["Taunt"] = true;
+    };
+    ["spells"] = {
+      [227965] = {
+      };
+      [227966] = {
+      };
+      [227977] = {
+      };
+    };
     ["clones"] = {
       [1] = {
-        ["x"] = 337.22543396168;
-        ["y"] = -215.68015231816;
+        ["x"] = 337.99713421703;
+        ["y"] = -195.2303715292;
         ["sublevel"] = 3;
         ["scale"] = 1.4;
         ["patrolFacing"] = 3.1415926535898;
@@ -1358,60 +1408,38 @@ MDT.dungeonEnemies[dungeonIndex] = {
         };
       };
       [2] = {
-        ["x"] = 323.99874029122;
-        ["y"] = -222.49864557572;
+        ["x"] = 325.34924333587;
+        ["y"] = -214.010053158;
         ["sublevel"] = 3;
         ["scale"] = 1.4;
       };
       [3] = {
-        ["x"] = 325.99868111499;
-        ["y"] = -207.49866024405;
+        ["x"] = 363.42725101285;
+        ["y"] = -218.47731469435;
         ["sublevel"] = 3;
         ["scale"] = 1.4;
       };
       [4] = {
-        ["x"] = 360.72628908001;
-        ["y"] = -223.30035849694;
-        ["g"] = 20;
+        ["x"] = 397.55130479152;
+        ["y"] = -222.44850244603;
         ["sublevel"] = 3;
         ["scale"] = 1.4;
       };
       [5] = {
-        ["x"] = 362.83158045373;
-        ["y"] = -211.19511379424;
-        ["g"] = 20;
-        ["sublevel"] = 3;
-        ["scale"] = 1.4;
-      };
-      [6] = {
-        ["x"] = 398.3230271251;
-        ["y"] = -226.69279865489;
-        ["g"] = 21;
-        ["sublevel"] = 3;
-        ["scale"] = 1.4;
-      };
-      [7] = {
-        ["x"] = 399.23216924262;
-        ["y"] = -215.32918542307;
-        ["g"] = 21;
-        ["sublevel"] = 3;
-        ["scale"] = 1.4;
-      };
-      [8] = {
         ["x"] = 211.88855019607;
         ["y"] = -253.92611638357;
         ["sublevel"] = 3;
         ["scale"] = 1.4;
         ["disguised"] = true;
       };
-      [9] = {
+      [6] = {
         ["x"] = 220.64393291811;
         ["y"] = -146.29215166546;
         ["sublevel"] = 3;
         ["scale"] = 1.4;
         ["disguised"] = true;
       };
-      [10] = {
+      [7] = {
         ["x"] = 348.21653245397;
         ["y"] = -195.68532118312;
         ["g"] = 3;
@@ -1419,7 +1447,7 @@ MDT.dungeonEnemies[dungeonIndex] = {
         ["scale"] = 2;
         ["teeming"] = true;
       };
-      [11] = {
+      [8] = {
         ["x"] = 648.99973447062;
         ["y"] = -361.50004132278;
         ["sublevel"] = 2;
@@ -1470,7 +1498,7 @@ MDT.dungeonEnemies[dungeonIndex] = {
           };
         };
       };
-      [12] = {
+      [9] = {
         ["x"] = 344.01469741187;
         ["y"] = -215.59123526022;
         ["g"] = 97;
@@ -1484,11 +1512,20 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Undying Servant";
     ["id"] = 114634;
     ["count"] = 3;
-    ["health"] = 9119568;
+    ["health"] = 213050;
     ["scale"] = 1;
     ["displayId"] = 73417;
     ["creatureType"] = "Undead";
     ["level"] = 110;
+    ["characteristics"] = {
+      ["Taunt"] = true;
+      ["Disorient"] = true;
+      ["Stun"] = true;
+    };
+    ["spells"] = {
+      [228277] = {
+      };
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 422.94423366057;
@@ -1765,11 +1802,18 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Spectral Valet";
     ["id"] = 114633;
     ["count"] = 5;
-    ["health"] = 18868408;
+    ["health"] = 340880;
     ["scale"] = 1;
     ["displayId"] = 16494;
     ["creatureType"] = "Undead";
     ["level"] = 111;
+    ["characteristics"] = {
+      ["Taunt"] = true;
+    };
+    ["spells"] = {
+      [228278] = {
+      };
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 476.71765648384;
@@ -1797,11 +1841,40 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Phantom Guest";
     ["id"] = 114625;
     ["count"] = 1;
-    ["health"] = 2279892;
+    ["health"] = 85220;
     ["scale"] = 1;
     ["displayId"] = 16464;
     ["creatureType"] = "Undead";
     ["level"] = 110;
+    ["characteristics"] = {
+      ["Taunt"] = true;
+      ["Incapacitate"] = true;
+      ["Root"] = true;
+      ["Disorient"] = true;
+      ["Stun"] = true;
+    };
+    ["spells"] = {
+      [21910] = {
+      };
+      [29492] = {
+      };
+      [29513] = {
+      };
+      [29514] = {
+      };
+      [29579] = {
+      };
+      [29580] = {
+      };
+      [29581] = {
+      };
+      [29583] = {
+      };
+      [29928] = {
+      };
+      [29930] = {
+      };
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 514.17750497089;
@@ -2369,34 +2442,31 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Spectral Retainer";
     ["id"] = 114629;
     ["count"] = 3;
-    ["health"] = 23585511;
+    ["health"] = 340880;
     ["scale"] = 1;
     ["displayId"] = 73465;
     ["creatureType"] = "Undead";
     ["level"] = 111;
+    ["spells"] = {
+      [241784] = {
+      };
+    };
     ["clones"] = {
       [1] = {
-        ["x"] = 430.08434929314;
-        ["y"] = -255.25787434332;
-        ["g"] = 29;
-        ["sublevel"] = 3;
-        ["scale"] = 1.2;
-      };
-      [2] = {
         ["x"] = 479.13696638026;
         ["y"] = -247.26425268105;
         ["g"] = 30;
         ["sublevel"] = 3;
         ["scale"] = 1.2;
       };
-      [3] = {
+      [2] = {
         ["x"] = 513.29440660724;
         ["y"] = -312.61692845426;
         ["g"] = 85;
         ["sublevel"] = 4;
         ["scale"] = 1.8;
       };
-      [4] = {
+      [3] = {
         ["x"] = 452.7900682245;
         ["y"] = -285.07090634806;
         ["g"] = 86;
@@ -2409,11 +2479,20 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Spectral Attendant";
     ["id"] = 114632;
     ["count"] = 3;
-    ["health"] = 9821073;
+    ["health"] = 213050;
     ["scale"] = 1;
     ["displayId"] = 16514;
     ["creatureType"] = "Undead";
     ["level"] = 110;
+    ["characteristics"] = {
+      ["Incapacitate"] = true;
+    };
+    ["spells"] = {
+      [228279] = {
+      };
+      [241788] = {
+      };
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 436.18461918803;
@@ -2472,27 +2551,32 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Phantom Guardsman";
     ["id"] = 114636;
     ["count"] = 3;
-    ["health"] = 11399460;
+    ["health"] = 255660;
     ["scale"] = 1;
     ["displayId"] = 16454;
     ["creatureType"] = "Undead";
     ["level"] = 110;
+    ["characteristics"] = {
+      ["Taunt"] = true;
+      ["Incapacitate"] = true;
+      ["Disorient"] = true;
+      ["Stun"] = true;
+    };
+    ["spells"] = {
+      [228276] = {
+      };
+      [241774] = {
+      };
+    };
     ["clones"] = {
       [1] = {
-        ["x"] = 512.20359184489;
-        ["y"] = -158.31423423033;
-        ["g"] = 31;
-        ["sublevel"] = 3;
-        ["scale"] = 1.2;
-      };
-      [2] = {
         ["x"] = 523.24587914043;
         ["y"] = -160.03097367821;
         ["g"] = 31;
         ["sublevel"] = 3;
         ["scale"] = 1.2;
       };
-      [3] = {
+      [2] = {
         ["x"] = 597.34302816892;
         ["y"] = -188.43997943275;
         ["g"] = 41;
@@ -2500,7 +2584,7 @@ MDT.dungeonEnemies[dungeonIndex] = {
         ["scale"] = 1.2;
         ["note"] = "Random spawn sentry or guard";
       };
-      [4] = {
+      [3] = {
         ["x"] = 638.21122807757;
         ["y"] = -234.3161059158;
         ["g"] = 42;
@@ -2508,12 +2592,13 @@ MDT.dungeonEnemies[dungeonIndex] = {
         ["scale"] = 1.2;
         ["note"] = "Random spawn sentry or guard";
       };
-      [5] = {
+      [4] = {
         ["x"] = 365.99703308195;
         ["y"] = -256.4987388663;
         ["g"] = 63;
         ["sublevel"] = 5;
         ["scale"] = 2.6;
+        ["inspiring"] = true;
         ["patrolFacing"] = 1.3744467859455;
         ["patrol"] = {
           [1] = {
@@ -2554,21 +2639,21 @@ MDT.dungeonEnemies[dungeonIndex] = {
           };
         };
       };
-      [6] = {
+      [5] = {
         ["x"] = 393.12530770096;
         ["y"] = -331.49474923307;
         ["g"] = 64;
         ["sublevel"] = 5;
         ["scale"] = 2.6;
       };
-      [7] = {
+      [6] = {
         ["x"] = 386.54409762571;
         ["y"] = -310.51364205411;
         ["g"] = 64;
         ["sublevel"] = 5;
         ["scale"] = 2.6;
       };
-      [8] = {
+      [7] = {
         ["x"] = 453.18056622134;
         ["y"] = -437.4948125575;
         ["g"] = 65;
@@ -2576,70 +2661,70 @@ MDT.dungeonEnemies[dungeonIndex] = {
         ["scale"] = 2.6;
         ["disguised"] = true;
       };
-      [9] = {
+      [8] = {
         ["x"] = 441.55737525728;
         ["y"] = -457.84755830711;
         ["g"] = 65;
         ["sublevel"] = 5;
         ["scale"] = 2.6;
       };
-      [10] = {
+      [9] = {
         ["x"] = 388.55656566198;
         ["y"] = -378.8236415471;
         ["g"] = 66;
         ["sublevel"] = 5;
         ["scale"] = 2.6;
       };
-      [11] = {
+      [10] = {
         ["x"] = 395.04783493084;
         ["y"] = -399.20621252362;
         ["g"] = 66;
         ["sublevel"] = 5;
         ["scale"] = 2.6;
       };
-      [12] = {
+      [11] = {
         ["x"] = 295.19240973879;
         ["y"] = -278.32887518501;
         ["g"] = 68;
         ["sublevel"] = 5;
         ["scale"] = 2.6;
       };
-      [13] = {
+      [12] = {
         ["x"] = 282.3460529589;
         ["y"] = -260.93610547631;
         ["g"] = 68;
         ["sublevel"] = 5;
         ["scale"] = 2.6;
       };
-      [14] = {
+      [13] = {
         ["x"] = 226.02245736492;
         ["y"] = -262.56162376388;
         ["g"] = 69;
         ["sublevel"] = 5;
         ["scale"] = 2.6;
       };
-      [15] = {
+      [14] = {
         ["x"] = 203.937293501;
         ["y"] = -284.88297721361;
         ["g"] = 69;
         ["sublevel"] = 5;
         ["scale"] = 2.6;
       };
-      [16] = {
+      [15] = {
         ["x"] = 272.0492662458;
         ["y"] = -323.14335026665;
         ["g"] = 70;
         ["sublevel"] = 5;
         ["scale"] = 2.6;
       };
-      [17] = {
+      [16] = {
         ["x"] = 246.42402712921;
         ["y"] = -341.42144253242;
         ["g"] = 70;
         ["sublevel"] = 5;
         ["scale"] = 2.6;
       };
-      [18] = {
+      [17] = {
         ["x"] = 634.86002323803;
         ["y"] = -239.80266262532;
         ["g"] = 42;
@@ -2647,7 +2732,7 @@ MDT.dungeonEnemies[dungeonIndex] = {
         ["scale"] = 1.2;
         ["teeming"] = true;
       };
-      [19] = {
+      [18] = {
         ["x"] = 647.13271873642;
         ["y"] = -222.07538811061;
         ["g"] = 42;
@@ -2655,7 +2740,7 @@ MDT.dungeonEnemies[dungeonIndex] = {
         ["scale"] = 1.2;
         ["teeming"] = true;
       };
-      [20] = {
+      [19] = {
         ["x"] = 335.87167325016;
         ["y"] = -286.12220277265;
         ["g"] = 101;
@@ -2663,7 +2748,7 @@ MDT.dungeonEnemies[dungeonIndex] = {
         ["scale"] = 2.6;
         ["teeming"] = true;
       };
-      [21] = {
+      [20] = {
         ["x"] = 344.81907124037;
         ["y"] = -289.28009465918;
         ["g"] = 101;
@@ -2671,7 +2756,7 @@ MDT.dungeonEnemies[dungeonIndex] = {
         ["scale"] = 2.6;
         ["teeming"] = true;
       };
-      [22] = {
+      [21] = {
         ["x"] = 344.99962850846;
         ["y"] = -476.49996638857;
         ["g"] = 102;
@@ -2679,7 +2764,7 @@ MDT.dungeonEnemies[dungeonIndex] = {
         ["scale"] = 2.6;
         ["teeming"] = true;
       };
-      [23] = {
+      [22] = {
         ["x"] = 344.99962850846;
         ["y"] = -494.49999170192;
         ["g"] = 102;
@@ -2687,7 +2772,7 @@ MDT.dungeonEnemies[dungeonIndex] = {
         ["scale"] = 2.6;
         ["teeming"] = true;
       };
-      [24] = {
+      [23] = {
         ["x"] = 348.54159487738;
         ["y"] = -447.04544033469;
         ["g"] = 71;
@@ -2695,7 +2780,7 @@ MDT.dungeonEnemies[dungeonIndex] = {
         ["scale"] = 1.6;
         ["teeming"] = true;
       };
-      [25] = {
+      [24] = {
         ["x"] = 345.35977337367;
         ["y"] = -452.95455134657;
         ["g"] = 71;
@@ -2709,11 +2794,26 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Reformed Maiden";
     ["id"] = 114783;
     ["count"] = 4;
-    ["health"] = 7856858;
+    ["health"] = 170440;
     ["scale"] = 1;
     ["displayId"] = 16551;
     ["creatureType"] = "Demon";
     ["level"] = 110;
+    ["characteristics"] = {
+      ["Taunt"] = true;
+      ["Disorient"] = true;
+      ["Stun"] = true;
+    };
+    ["spells"] = {
+      [228526] = {
+      };
+      [228528] = {
+      };
+      [241798] = {
+      };
+      [241801] = {
+      };
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 537.54159433094;
@@ -2813,11 +2913,22 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Wholesome Hostess";
     ["id"] = 114796;
     ["count"] = 3;
-    ["health"] = 11224084;
+    ["health"] = 191745;
     ["scale"] = 1;
     ["displayId"] = 16543;
     ["creatureType"] = "Undead";
     ["level"] = 110;
+    ["characteristics"] = {
+      ["Taunt"] = true;
+    };
+    ["spells"] = {
+      [228575] = {
+      };
+      [228576] = {
+      };
+      [228625] = {
+      };
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 532.13041579922;
@@ -3035,11 +3146,23 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Virtuous Lady";
     ["id"] = 114792;
     ["count"] = 3;
-    ["health"] = 7856858;
+    ["health"] = 213050;
     ["scale"] = 1;
     ["displayId"] = 16547;
     ["creatureType"] = "Undead";
     ["level"] = 110;
+    ["characteristics"] = {
+      ["Disorient"] = true;
+      ["Stun"] = true;
+    };
+    ["spells"] = {
+      [228559] = {
+      };
+      [241808] = {
+      };
+      [241809] = {
+      };
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 511.48084238316;
@@ -3149,11 +3272,22 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Spectral Sentry";
     ["id"] = 114637;
     ["count"] = 3;
-    ["health"] = 11224084;
+    ["health"] = 170440;
     ["scale"] = 1;
     ["displayId"] = 16458;
     ["creatureType"] = "Undead";
     ["level"] = 110;
+    ["characteristics"] = {
+      ["Taunt"] = true;
+      ["Disorient"] = true;
+      ["Stun"] = true;
+    };
+    ["spells"] = {
+      [6660] = {
+      };
+      [228273] = {
+      };
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 551.00652559478;
@@ -3384,17 +3518,33 @@ MDT.dungeonEnemies[dungeonIndex] = {
         ["scale"] = 2.6;
         ["teeming"] = true;
       };
+      [25] = {
+        ["x"] = 511.17363527991;
+        ["y"] = -158.36548588989;
+        ["g"] = 31;
+        ["sublevel"] = 3;
+        ["scale"] = 1.2;
+      };
     };
   };
   [18] = {
     ["name"] = "Arcane Warden";
     ["id"] = 114624;
-    ["count"] = 6;
-    ["health"] = 23585511;
+    ["count"] = 12;
+    ["health"] = 340880;
     ["scale"] = 1;
     ["displayId"] = 61125;
     ["creatureType"] = "Elemental";
     ["level"] = 111;
+    ["characteristics"] = {
+      ["Taunt"] = true;
+    };
+    ["spells"] = {
+      [228320] = {
+      };
+      [238606] = {
+      };
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 363.28167879596;
@@ -3452,11 +3602,18 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Skeletal Waiter";
     ["id"] = 114628;
     ["count"] = 3;
-    ["health"] = 14695587;
+    ["health"] = 340880;
     ["scale"] = 1;
     ["displayId"] = 73472;
     ["creatureType"] = "Undead";
     ["level"] = 111;
+    ["characteristics"] = {
+      ["Taunt"] = true;
+    };
+    ["spells"] = {
+      [230297] = {
+      };
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 326.63012739692;
@@ -3534,7 +3691,7 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Skeletal Hound";
     ["id"] = 114794;
     ["count"] = 3;
-    ["health"] = 14205481;
+    ["health"] = 213050;
     ["scale"] = 1.2;
     ["displayId"] = 73458;
     ["creatureType"] = "Undead";
@@ -3592,7 +3749,7 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Ghostly Baker";
     ["id"] = 114716;
     ["count"] = 3;
-    ["health"] = 6839676;
+    ["health"] = 170440;
     ["scale"] = 1;
     ["displayId"] = 16529;
     ["creatureType"] = "Undead";
@@ -3625,11 +3782,13 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Ghostly Chef";
     ["id"] = 114715;
     ["count"] = 3;
-    ["health"] = 14205481;
+    ["health"] = 159788;
     ["scale"] = 1;
     ["displayId"] = 16524;
     ["creatureType"] = "Undead";
     ["level"] = 110;
+    ["spells"] = {
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 305.89671191938;
@@ -3736,11 +3895,21 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Spectral Journeyman";
     ["id"] = 114802;
     ["count"] = 4;
-    ["health"] = 16158753;
+    ["health"] = 245008;
     ["scale"] = 1;
     ["displayId"] = 73470;
     ["creatureType"] = "Undead";
     ["level"] = 110;
+    ["characteristics"] = {
+      ["Taunt"] = true;
+      ["Root"] = true;
+      ["Disorient"] = true;
+      ["Stun"] = true;
+    };
+    ["spells"] = {
+      [228637] = {
+      };
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 350.67603587466;
@@ -3769,11 +3938,19 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Spectral Apprentice";
     ["id"] = 114801;
     ["count"] = 4;
-    ["health"] = 16158753;
+    ["health"] = 202398;
     ["scale"] = 1;
     ["displayId"] = 16417;
     ["creatureType"] = "Undead";
     ["level"] = 110;
+    ["characteristics"] = {
+      ["Incapacitate"] = true;
+      ["Root"] = true;
+      ["Disorient"] = true;
+      ["Stun"] = true;
+    };
+    ["spells"] = {
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 337.00723669233;
@@ -3857,11 +4034,24 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Spectral Charger";
     ["id"] = 114804;
     ["count"] = 5;
-    ["health"] = 14205481;
+    ["health"] = 255660;
     ["scale"] = 1;
     ["displayId"] = 16407;
     ["creatureType"] = "Undead";
     ["level"] = 110;
+    ["characteristics"] = {
+      ["Taunt"] = true;
+      ["Incapacitate"] = true;
+      ["Root"] = true;
+      ["Disorient"] = true;
+      ["Stun"] = true;
+    };
+    ["spells"] = {
+      [228603] = {
+      };
+      [241828] = {
+      };
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 393.37856777015;
@@ -3976,11 +4166,22 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Spectral Stable Hand";
     ["id"] = 114803;
     ["count"] = 4;
-    ["health"] = 14205481;
+    ["health"] = 191745;
     ["scale"] = 1;
     ["displayId"] = 16397;
     ["creatureType"] = "Undead";
     ["level"] = 110;
+    ["characteristics"] = {
+      ["Stun"] = true;
+    };
+    ["spells"] = {
+      [6016] = {
+      };
+      [228606] = {
+      };
+      [233210] = {
+      };
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 436.81566725941;
@@ -4041,6 +4242,8 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["displayId"] = 16050;
     ["creatureType"] = "Beast";
     ["level"] = 110;
+    ["spells"] = {
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 513.59388039507;
@@ -4487,11 +4690,20 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Shrieking Terror";
     ["id"] = 114627;
     ["count"] = 5;
-    ["health"] = 15573416.18;
+    ["health"] = 382886;
     ["scale"] = 1;
     ["displayId"] = 10698;
     ["creatureType"] = "Undead";
     ["level"] = 110;
+    ["characteristics"] = {
+      ["Taunt"] = true;
+    };
+    ["spells"] = {
+      [228239] = {
+      };
+      [228241] = {
+      };
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 472.61093967535;
@@ -4535,13 +4747,32 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Maiden of Virtue";
     ["id"] = 113971;
     ["count"] = 0;
-    ["health"] = 93092225;
+    ["health"] = 1491350;
     ["scale"] = 1;
     ["displayId"] = 16198;
     ["creatureType"] = "Giant";
     ["level"] = 112;
     ["isBoss"] = true;
     ["encounterID"] = 1555;
+    ["characteristics"] = {
+      ["Taunt"] = true;
+    };
+    ["spells"] = {
+      [227508] = {
+      };
+      [227789] = {
+      };
+      [227800] = {
+      };
+      [227809] = {
+      };
+      [227817] = {
+      };
+      [227823] = {
+      };
+      [227848] = {
+      };
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 703.60465140873;
@@ -4555,13 +4786,30 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Attumen the Huntsman";
     ["id"] = 114264;
     ["count"] = 0;
-    ["health"] = 36786446;
+    ["health"] = 426100;
     ["scale"] = 1;
     ["displayId"] = 73811;
     ["creatureType"] = "Undead";
     ["level"] = 112;
     ["isBoss"] = true;
     ["encounterID"] = 1835;
+    ["characteristics"] = {
+      ["Taunt"] = true;
+    };
+    ["spells"] = {
+      [227339] = {
+      };
+      [227363] = {
+      };
+      [227365] = {
+      };
+      [227404] = {
+      };
+      [227645] = {
+      };
+      [228895] = {
+      };
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 383.82070096933;
@@ -4575,13 +4823,30 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Moroes";
     ["id"] = 114312;
     ["count"] = 0;
-    ["health"] = 75937736;
+    ["health"] = 1193080;
     ["scale"] = 1;
     ["displayId"] = 16540;
     ["creatureType"] = "Undead";
     ["level"] = 112;
     ["isBoss"] = true;
     ["encounterID"] = 1837;
+    ["characteristics"] = {
+      ["Taunt"] = true;
+    };
+    ["spells"] = {
+      [227736] = {
+      };
+      [227737] = {
+      };
+      [227742] = {
+      };
+      [227832] = {
+      };
+      [227851] = {
+      };
+      [227872] = {
+      };
+    };
     ["clones"] = {
       [1] = {
         ["x"] = 224.28443185713;
@@ -4595,7 +4860,7 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Nathrezim Infiltrator";
     ["id"] = 189878;
     ["count"] = 4;
-    ["health"] = 999999;
+    ["health"] = 239096;
     ["scale"] = 1.2;
     ["displayId"] = 101016;
     ["creatureType"] = "Demon";
@@ -4661,8 +4926,8 @@ MDT.dungeonEnemies[dungeonIndex] = {
         ["shrouded"] = true;
       };
       [7] = {
-        ["x"] = 436.18461918803;
-        ["y"] = -264.53258398215;
+        ["x"] = 433.06231937921;
+        ["y"] = -261.890644333;
         ["g"] = 29;
         ["sublevel"] = 3;
         ["scale"] = 1.2;
@@ -4777,7 +5042,7 @@ MDT.dungeonEnemies[dungeonIndex] = {
       [18] = {
         ["x"] = 253.15222576475;
         ["y"] = -321.49798114558;
-        ["g"] = 70;
+        ["g"] = 76;
         ["sublevel"] = 5;
         ["scale"] = 2.6;
         ["shrouded"] = true;
@@ -4835,7 +5100,7 @@ MDT.dungeonEnemies[dungeonIndex] = {
     ["name"] = "Zul'gamux";
     ["id"] = 190128;
     ["count"] = 12;
-    ["health"] = 999999;
+    ["health"] = 639150;
     ["scale"] = 1.8;
     ["displayId"] = 101106;
     ["creatureType"] = "Demon";
@@ -4856,15 +5121,99 @@ MDT.dungeonEnemies[dungeonIndex] = {
       };
       [373724] = {
       };
+      [373729] = {
+      };
+      [373744] = {
+      };
+      [373747] = {
+      };
+      [374273] = {
+      };
     };
     ["clones"] = {
       [1] = {
-        ["x"] = 82.19065541269;
-        ["y"] = -214.33618428887;
+        ["x"] = 89.261476943108;
+        ["y"] = -213.64634780131;
         ["g"] = 14;
         ["sublevel"] = 3;
         ["scale"] = 1.2;
         ["shrouded"] = true;
+      };
+    };
+  };
+  [38] = {
+    ["name"] = "Spectral Patron";
+    ["id"] = 116550;
+    ["count"] = 3;
+    ["health"] = 85220;
+    ["scale"] = 1;
+    ["displayId"] = 16555;
+    ["creatureType"] = "Undead";
+    ["level"] = 110;
+    ["characteristics"] = {
+      ["Taunt"] = true;
+      ["Root"] = true;
+      ["Disorient"] = true;
+      ["Stun"] = true;
+    };
+    ["spells"] = {
+      [227981] = {
+      };
+      [227983] = {
+      };
+      [228014] = {
+      };
+    };
+    ["clones"] = {
+      [1] = {
+        ["x"] = 201.97347945815;
+        ["y"] = -227.0167110551;
+        ["g"] = 103;
+        ["sublevel"] = 3;
+      };
+      [2] = {
+        ["x"] = 206.87490931041;
+        ["y"] = -199.94275425178;
+        ["g"] = 103;
+        ["sublevel"] = 3;
+      };
+      [3] = {
+        ["x"] = 206.20030538956;
+        ["y"] = -209.63631973138;
+        ["g"] = 103;
+        ["sublevel"] = 3;
+        ["disguised"] = true;
+      };
+      [4] = {
+        ["x"] = 204.02072423023;
+        ["y"] = -217.90631114019;
+        ["g"] = 103;
+        ["sublevel"] = 3;
+      };
+      [5] = {
+        ["x"] = 183.91750518535;
+        ["y"] = -179.63670838954;
+        ["g"] = 104;
+        ["sublevel"] = 3;
+      };
+      [6] = {
+        ["x"] = 181.8290546604;
+        ["y"] = -186.52871522402;
+        ["g"] = 104;
+        ["sublevel"] = 3;
+      };
+      [7] = {
+        ["x"] = 179.32282798714;
+        ["y"] = -195.09155776636;
+        ["g"] = 104;
+        ["sublevel"] = 3;
+        ["inspiring"] = true;
+      };
+      [8] = {
+        ["x"] = 176.60778494249;
+        ["y"] = -202.81900934331;
+        ["g"] = 104;
+        ["sublevel"] = 3;
       };
     };
   };
